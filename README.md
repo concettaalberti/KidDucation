@@ -1,5 +1,3 @@
 # KidDucation
-This code extracts video transcripts from YouTube Videos and calculates word similarity between the
-videos and WordBank, a dictionary of the words known by kids between 16 and 30 months of age. 
-You need to specify the name of the channels you want to download video transcripts from and can choose multiple ones. 
+YouTube_ReadVideos extracts video transcripts from YouTube Videos, one channel at a time.  SimilarityModel calculates word similarity between the video transcripts and WordBank, a dictionary of the words known by kids between 16 and 30 months of age. The output is the video ID and the proportion of dictionary's words in the video from a selected category (hardcoded) and difficulty level (hardcoded) based on child's age (hardcoded). 
   
